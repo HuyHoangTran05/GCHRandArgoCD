@@ -25,6 +25,8 @@ dependencies {
 	// end::security-dependencies[]
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'mysql:mysql-connector-java:8.0.33'
+	// Use in-memory H2 database for tests
+	testImplementation 'com.h2database:h2:2.2.224'
 }
 
 test {
